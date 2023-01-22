@@ -4,6 +4,7 @@ title: First Post
 subtitle: Everyone has to start somewhere
 tags: [first, blog, post]
 comments: false
+readtime: true
 ---
 
 Welcome to my personal blog! I'll occasionally post updates about my projects here.
