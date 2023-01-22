@@ -22,6 +22,8 @@ body {
   {% endif %}
   overflow-wrap: break-word;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 p {
   line-height: 1.5;
@@ -385,12 +387,15 @@ footer {
   border-top: 1px #EAEAEA solid;
   margin-top: 3.125rem;
   font-size: 0.875rem;
-  margin-top: auto;
   background-color: {{ site.footer-col | default: "#EAEAEA" }};
   {% if site.footer-img %}
     background-image: url({{ site.footer-img | relative_url }});
     background-attachment: fixed;
   {% endif %}
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 footer p.text-muted {
