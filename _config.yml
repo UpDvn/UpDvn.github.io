@@ -10,21 +10,17 @@
 ############################
 
 # Name of website
-title: My Website
+title: UpDvn - Blog
 
 # Your name to show in the footer
-author: Some Person
+author: UpDvn
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Portfolio: "aboutme"
 
 ################
 # --- Logo --- #
@@ -49,13 +45,8 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+  github: updvn
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -79,7 +70,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: UpDvn's Personal Blog
 
 ###########################
 # --- General options --- #
@@ -88,13 +79,12 @@ rss-description: This website is a virtual proof that I'm awesome
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
-  linkedin: true
+  facebook: false
+  linkedin: false
   vk: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -109,7 +99,7 @@ feed_show_tags: true
 post_search: true
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
-edit_page_button: true
+edit_page_button: false
 
 # Allow sub-menu items (second-level navigation menu items) to be longer than the top-level menu
 # If this setting is off, then long sub-menu words might get cut off
@@ -125,17 +115,17 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
+navbar-col: "#1F1F1F"
+navbar-text-col: "#FCBA03"
+navbar-border-col: "#1F1F1F"
+page-col: "#0F0F0F"
+text-col: "#FFFFFF"
+link-col: "#FCBA03"
 hover-col: "#0085A1"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+footer-col: "#1F1F1F"
+footer-text-col: "#FFFFFF"
+footer-link-col: "#FCBA03"
+footer-hover-col: "#FFE18F"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
@@ -160,7 +150,7 @@ footer-hover-col: "#0085A1"
 #################################
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-#gtag: ""
+gtag: "G-39B11FDV5S"
 
 # Fill in your Google Analytics ID to track your website using Google Analytics
 #google_analytics: ""
